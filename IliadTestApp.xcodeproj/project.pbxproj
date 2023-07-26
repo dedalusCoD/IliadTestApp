@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		192F70FA2A68585700EFFF66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 192F70F92A68585700EFFF66 /* Alamofire */; };
+		192F70FF2A6860D000EFFF66 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F70FE2A6860D000EFFF66 /* Flags.swift */; };
+		192F71082A69C37A00EFFF66 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F71072A69C37A00EFFF66 /* Country.swift */; };
+		192F710C2A69C63900EFFF66 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F710B2A69C63900EFFF66 /* CountryTableViewCell.swift */; };
+		192F710E2A69DCA300EFFF66 /* CountryJsonKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F710D2A69DCA300EFFF66 /* CountryJsonKey.swift */; };
+		192F71102A69DCE000EFFF66 /* FlagJsonKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F710F2A69DCE000EFFF66 /* FlagJsonKey.swift */; };
+		195B565A2A6703560044EE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B56592A6703560044EE00 /* AppDelegate.swift */; };
+		195B565C2A6703560044EE00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B565B2A6703560044EE00 /* SceneDelegate.swift */; };
+		195B565E2A6703560044EE00 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B565D2A6703560044EE00 /* CountriesViewController.swift */; };
+		195B56612A6703560044EE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195B565F2A6703560044EE00 /* Main.storyboard */; };
+		195B56642A6703560044EE00 /* IliadTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 195B56622A6703560044EE00 /* IliadTestApp.xcdatamodeld */; };
+		195B56662A6703560044EE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195B56652A6703560044EE00 /* Assets.xcassets */; };
+		195B56692A6703560044EE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195B56672A6703560044EE00 /* LaunchScreen.storyboard */; };
+		195B56742A6703570044EE00 /* IliadTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B56732A6703570044EE00 /* IliadTestAppTests.swift */; };
+		195B567E2A6703570044EE00 /* IliadTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B567D2A6703570044EE00 /* IliadTestAppUITests.swift */; };
+		195B56802A6703570044EE00 /* IliadTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B567F2A6703570044EE00 /* IliadTestAppUITestsLaunchTests.swift */; };
+		195B568D2A670C630044EE00 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B568C2A670C630044EE00 /* CountryDetailViewController.swift */; };
+		19F7FB972A670EC10077ACDE /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7FB962A670EC10077ACDE /* CountriesViewModel.swift */; };
+		19F7FB9C2A6714710077ACDE /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 19F7FB9B2A6714710077ACDE /* ProgressHUD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195B56702A6703570044EE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195B564E2A6703560044EE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195B56552A6703560044EE00;
+			remoteInfo = IliadTestApp;
+		};
+		195B567A2A6703570044EE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195B564E2A6703560044EE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195B56552A6703560044EE00;
+			remoteInfo = IliadTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192F70FE2A6860D000EFFF66 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		192F71072A69C37A00EFFF66 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		192F710B2A69C63900EFFF66 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		192F710D2A69DCA300EFFF66 /* CountryJsonKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryJsonKey.swift; sourceTree = "<group>"; };
+		192F710F2A69DCE000EFFF66 /* FlagJsonKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagJsonKey.swift; sourceTree = "<group>"; };
+		195B56562A6703560044EE00 /* IliadTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IliadTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195B56592A6703560044EE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195B565B2A6703560044EE00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		195B565D2A6703560044EE00 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		195B56602A6703560044EE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195B56632A6703560044EE00 /* IliadTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IliadTestApp.xcdatamodel; sourceTree = "<group>"; };
+		195B56652A6703560044EE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195B56682A6703560044EE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195B566A2A6703560044EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195B566F2A6703570044EE00 /* IliadTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IliadTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195B56732A6703570044EE00 /* IliadTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IliadTestAppTests.swift; sourceTree = "<group>"; };
+		195B56792A6703570044EE00 /* IliadTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IliadTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195B567D2A6703570044EE00 /* IliadTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IliadTestAppUITests.swift; sourceTree = "<group>"; };
+		195B567F2A6703570044EE00 /* IliadTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IliadTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		195B568C2A670C630044EE00 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		19F7FB962A670EC10077ACDE /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195B56532A6703560044EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F7FB9C2A6714710077ACDE /* ProgressHUD in Frameworks */,
+				192F70FA2A68585700EFFF66 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B566C2A6703570044EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B56762A6703570044EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192F71042A6861C200EFFF66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				192F71072A69C37A00EFFF66 /* Country.swift */,
+				192F70FE2A6860D000EFFF66 /* Flags.swift */,
+				192F710D2A69DCA300EFFF66 /* CountryJsonKey.swift */,
+				192F710F2A69DCE000EFFF66 /* FlagJsonKey.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		195B564D2A6703560044EE00 = {
+			isa = PBXGroup;
+			children = (
+				195B56582A6703560044EE00 /* IliadTestApp */,
+				195B56722A6703570044EE00 /* IliadTestAppTests */,
+				195B567C2A6703570044EE00 /* IliadTestAppUITests */,
+				195B56572A6703560044EE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		195B56572A6703560044EE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195B56562A6703560044EE00 /* IliadTestApp.app */,
+				195B566F2A6703570044EE00 /* IliadTestAppTests.xctest */,
+				195B56792A6703570044EE00 /* IliadTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195B56582A6703560044EE00 /* IliadTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				195B56592A6703560044EE00 /* AppDelegate.swift */,
+				195B565B2A6703560044EE00 /* SceneDelegate.swift */,
+				192F71042A6861C200EFFF66 /* Model */,
+				195B565D2A6703560044EE00 /* CountriesViewController.swift */,
+				192F710B2A69C63900EFFF66 /* CountryTableViewCell.swift */,
+				19F7FB962A670EC10077ACDE /* CountriesViewModel.swift */,
+				195B568C2A670C630044EE00 /* CountryDetailViewController.swift */,
+				195B565F2A6703560044EE00 /* Main.storyboard */,
+				195B56652A6703560044EE00 /* Assets.xcassets */,
+				195B56672A6703560044EE00 /* LaunchScreen.storyboard */,
+				195B566A2A6703560044EE00 /* Info.plist */,
+				195B56622A6703560044EE00 /* IliadTestApp.xcdatamodeld */,
+			);
+			path = IliadTestApp;
+			sourceTree = "<group>";
+		};
+		195B56722A6703570044EE00 /* IliadTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				195B56732A6703570044EE00 /* IliadTestAppTests.swift */,
+			);
+			path = IliadTestAppTests;
+			sourceTree = "<group>";
+		};
+		195B567C2A6703570044EE00 /* IliadTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195B567D2A6703570044EE00 /* IliadTestAppUITests.swift */,
+				195B567F2A6703570044EE00 /* IliadTestAppUITestsLaunchTests.swift */,
+			);
+			path = IliadTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195B56552A6703560044EE00 /* IliadTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195B56832A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestApp" */;
+			buildPhases = (
+				195B56522A6703560044EE00 /* Sources */,
+				195B56532A6703560044EE00 /* Frameworks */,
+				195B56542A6703560044EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IliadTestApp;
+			packageProductDependencies = (
+				19F7FB9B2A6714710077ACDE /* ProgressHUD */,
+				192F70F92A68585700EFFF66 /* Alamofire */,
+			);
+			productName = IliadTestApp;
+			productReference = 195B56562A6703560044EE00 /* IliadTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195B566E2A6703570044EE00 /* IliadTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195B56862A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestAppTests" */;
+			buildPhases = (
+				195B566B2A6703570044EE00 /* Sources */,
+				195B566C2A6703570044EE00 /* Frameworks */,
+				195B566D2A6703570044EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195B56712A6703570044EE00 /* PBXTargetDependency */,
+			);
+			name = IliadTestAppTests;
+			productName = IliadTestAppTests;
+			productReference = 195B566F2A6703570044EE00 /* IliadTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		195B56782A6703570044EE00 /* IliadTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195B56892A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestAppUITests" */;
+			buildPhases = (
+				195B56752A6703570044EE00 /* Sources */,
+				195B56762A6703570044EE00 /* Frameworks */,
+				195B56772A6703570044EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195B567B2A6703570044EE00 /* PBXTargetDependency */,
+			);
+			name = IliadTestAppUITests;
+			productName = IliadTestAppUITests;
+			productReference = 195B56792A6703570044EE00 /* IliadTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195B564E2A6703560044EE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					195B56552A6703560044EE00 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					195B566E2A6703570044EE00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 195B56552A6703560044EE00;
+					};
+					195B56782A6703570044EE00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 195B56552A6703560044EE00;
+					};
+				};
+			};
+			buildConfigurationList = 195B56512A6703560044EE00 /* Build configuration list for PBXProject "IliadTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195B564D2A6703560044EE00;
+			packageReferences = (
+				19F7FB9A2A6714710077ACDE /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				192F70F82A68585700EFFF66 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 195B56572A6703560044EE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195B56552A6703560044EE00 /* IliadTestApp */,
+				195B566E2A6703570044EE00 /* IliadTestAppTests */,
+				195B56782A6703570044EE00 /* IliadTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195B56542A6703560044EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B56692A6703560044EE00 /* LaunchScreen.storyboard in Resources */,
+				195B56662A6703560044EE00 /* Assets.xcassets in Resources */,
+				195B56612A6703560044EE00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B566D2A6703570044EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B56772A6703570044EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195B56522A6703560044EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B565E2A6703560044EE00 /* CountriesViewController.swift in Sources */,
+				195B56642A6703560044EE00 /* IliadTestApp.xcdatamodeld in Sources */,
+				195B565A2A6703560044EE00 /* AppDelegate.swift in Sources */,
+				192F710C2A69C63900EFFF66 /* CountryTableViewCell.swift in Sources */,
+				19F7FB972A670EC10077ACDE /* CountriesViewModel.swift in Sources */,
+				195B568D2A670C630044EE00 /* CountryDetailViewController.swift in Sources */,
+				192F70FF2A6860D000EFFF66 /* Flags.swift in Sources */,
+				195B565C2A6703560044EE00 /* SceneDelegate.swift in Sources */,
+				192F71082A69C37A00EFFF66 /* Country.swift in Sources */,
+				192F71102A69DCE000EFFF66 /* FlagJsonKey.swift in Sources */,
+				192F710E2A69DCA300EFFF66 /* CountryJsonKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B566B2A6703570044EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B56742A6703570044EE00 /* IliadTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195B56752A6703570044EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B56802A6703570044EE00 /* IliadTestAppUITestsLaunchTests.swift in Sources */,
+				195B567E2A6703570044EE00 /* IliadTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195B56712A6703570044EE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195B56552A6703560044EE00 /* IliadTestApp */;
+			targetProxy = 195B56702A6703570044EE00 /* PBXContainerItemProxy */;
+		};
+		195B567B2A6703570044EE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195B56552A6703560044EE00 /* IliadTestApp */;
+			targetProxy = 195B567A2A6703570044EE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		195B565F2A6703560044EE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195B56602A6703560044EE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195B56672A6703560044EE00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195B56682A6703560044EE00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195B56812A6703570044EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195B56822A6703570044EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195B56842A6703570044EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q58SEDUV7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IliadTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195B56852A6703570044EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q58SEDUV7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IliadTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		195B56872A6703570044EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IliadTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IliadTestApp";
+			};
+			name = Debug;
+		};
+		195B56882A6703570044EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IliadTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IliadTestApp";
+			};
+			name = Release;
+		};
+		195B568A2A6703570044EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IliadTestApp;
+			};
+			name = Debug;
+		};
+		195B568B2A6703570044EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliad.nation.test.app.IliadTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IliadTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195B56512A6703560044EE00 /* Build configuration list for PBXProject "IliadTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195B56812A6703570044EE00 /* Debug */,
+				195B56822A6703570044EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195B56832A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195B56842A6703570044EE00 /* Debug */,
+				195B56852A6703570044EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195B56862A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195B56872A6703570044EE00 /* Debug */,
+				195B56882A6703570044EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195B56892A6703570044EE00 /* Build configuration list for PBXNativeTarget "IliadTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195B568A2A6703570044EE00 /* Debug */,
+				195B568B2A6703570044EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		192F70F82A68585700EFFF66 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		19F7FB9A2A6714710077ACDE /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		192F70F92A68585700EFFF66 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 192F70F82A68585700EFFF66 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		19F7FB9B2A6714710077ACDE /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19F7FB9A2A6714710077ACDE /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		195B56622A6703560044EE00 /* IliadTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				195B56632A6703560044EE00 /* IliadTestApp.xcdatamodel */,
+			);
+			currentVersion = 195B56632A6703560044EE00 /* IliadTestApp.xcdatamodel */;
+			path = IliadTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 195B564E2A6703560044EE00 /* Project object */;
+}
